@@ -1,6 +1,6 @@
 
 
-<div id="home" class="carousel slide padtopslider" data-ride="carousel" data-interval="5000"> 
+<div id="home" style="display: none" class="carousel slide padtopslider" data-ride="carousel" data-interval="5000"> 
 
 
   <div class="carousel-inner">
@@ -10,6 +10,7 @@
         </div>
     <?php $c++; endforeach ?>
   </div>
+
   <a class="carousel-control-prev" href="#home" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -32,11 +33,11 @@
         </div>
         <div class="row justify-content-center">
             
-            <div class="col-md-3">
+            <div class="col-sm-3 my-2" >
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-chat"></i> -->
-                         <!-- <img src="/rcm/assets/images/services/shipment.png" alt=""> -->
+                         <img src="<?=base_url()?>assets/images/featured/service-maintenance.png" alt="">
                     </div>
                     <div class="content">
                         <h4 class="title">Service maintenance and repair equipment  we provide</h4>
@@ -45,11 +46,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-3  my-2">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-shield-1"></i> -->
-                         <!-- <img src="/rcm/assets/images/services/boat.png" alt=""> -->
+                         <img src="<?=base_url()?>assets/images/featured/spare-part.png" alt="">
                     </div>
                     <div class="content">
                         <h4 class="title">Distributor spare part</h4>
@@ -57,11 +58,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-sm-3  my-2">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-cloud"></i> -->
-                         <!-- <img src="/rcm/assets/images/services/ppjk.png" alt=""> -->
+                         <img src="<?=base_url()?>assets/images/featured/delivery-truck.png" alt="">
                     </div>
                     <div class="content">
                         <h4 class="title">Inland transportation</h4>
@@ -70,11 +71,11 @@
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-sm-3  my-2">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-layers-2"></i> -->
-                        <!-- <img src="/rcm/assets/images/services/delivery-truck.png" alt=""> -->
+                         <img src="<?=base_url()?>assets/images/featured/harbor-crane.png" alt="">
                     </div>
                     <div class="content">
                         <h4 class="title">Rental Equipment</h4>
@@ -119,7 +120,7 @@
         </div>
     </div>
     <div style="text-align: center">
-        <a href="/rcm/profile" class="btn btn-primary"><i>Read More... </i></a>
+        <a href="<?=base_url()?>profile" class="btn btn-primary"><i>Read More... </i></a>
     </div>
 </section>
 

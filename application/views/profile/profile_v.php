@@ -12,7 +12,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-5">
-                    <img src="/rcm//assets/images/logo/logo-rcm.png" style="max-height: 256px" alt="Maxco">
+                    <img src="<?=base_url()?>assets/images/logo/logo-rcm.png" style="max-height: 256px" alt="Maxco">
                 </div> 
                 <div class="col-sm-7">
                     <div class="card">

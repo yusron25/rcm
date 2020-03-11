@@ -41,27 +41,27 @@
 
     <!-- <base href="<?=base_url()?>" target="_blank"> -->
     <!-- favicon -->
-    <link rel="shortcut icon" href="/rcm/assets/images/logo/logo-rcm.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?=base_url()?>assets/images/logo/logo-rcm.png" type="image/x-icon">
     <!-- bootstrap -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/bootstrap.min.css">
     <!-- icofont -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/fontawesome.5.7.2.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/fontawesome.5.7.2.css">
     <!-- flaticon -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/flaticon.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/flaticon.css">
     <!-- animate.css -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/animate.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/animate.css">
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/owl.carousel.min.css">
     <!-- magnific popup -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/magnific-popup.css">
     <!-- stylesheet -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/style.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/style.css">
     <!-- responsive -->
-    <link rel="stylesheet" href="/rcm/assets/appside/assets/css/responsive.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/appside/assets/css/responsive.css">
 
     
     <!-- jquery -->
-    <script src="/rcm/assets/appside/assets/js/jquery.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/jquery.js"></script>
 </head>
 
 <body>
@@ -73,7 +73,7 @@ background-color:#f9f9f9;z-index: 3;">
         <div class="responsive-mobile-menu">
             <div class="logo-wrapper">
                 <a href="/" class="logo">
-                    <img src="/rcm/assets/images/logo/logo-rcm-head.png" alt="Maxco Logo" style="width: 110px">
+                    <img src="<?=base_url()?>assets/images/logo/logo-rcm-head.png" alt="Maxco Logo" style="width: 110px">
                 </a>
             </div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#appside_main_menu" 
@@ -84,12 +84,12 @@ background-color:#f9f9f9;z-index: 3;">
         <div class="collapse navbar-collapse" id="appside_main_menu">
             <ul class="navbar-nav">
                 <li class="current-menu-item">
-                    <a href="/rcm/#home"><?=$this->lang->line('home') ?></a>
+                    <a href="<?=base_url()?>#home"><?=$this->lang->line('home') ?></a>
                 </li>                
-                <li><a href="/rcm/#services"><?=$this->lang->line('service') ?></a></li>
-                <li><a href="/rcm/#profile"><?=$this->lang->line('profile') ?></a></li>
+                <li><a href="<?=base_url()?>#services"><?=$this->lang->line('service') ?></a></li>
+                <li><a href="<?=base_url()?>#profile"><?=$this->lang->line('profile') ?></a></li>
                 <li><a href="#"><?=$this->lang->line('gallery') ?></a></li>
-                <li><a href="/rcm/#contact"><?=$this->lang->line('contact') ?></a></li>
+                <li><a href="<?=base_url()?>#contact"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
                     <a href="#">
 
@@ -97,19 +97,19 @@ background-color:#f9f9f9;z-index: 3;">
                             switch ( $this->session->userdata('language') ) {
                                 case 'english':
                                     ?>
-                                    <img src="/rcm/assets/icon/flag/260-united-kingdom.png" style="width: 25px" alt="Langage English">
+                                    <img src="<?=base_url()?>assets/icon/flag/260-united-kingdom.png" style="width: 25px" alt="Langage English">
                                     <?php
                                     break;
 
                                 case 'indonesian':
                                      ?>
-                                    <img src="/rcm/assets/icon/flag/039-indonesia.png" style="width: 25px" alt="Langage Indonesian">
+                                    <img src="<?=base_url()?>assets/icon/flag/039-indonesia.png" style="width: 25px" alt="Langage Indonesian">
                                     <?php
                                     break;
                                 
                                 default:
                                     ?>
-                                    <img src="/rcm/assets/icon/flag/260-united-kingdom.png" style="width: 50px" alt="Langage English">
+                                    <img src="<?=base_url()?>assets/icon/flag/260-united-kingdom.png" style="width: 50px" alt="Langage English">
                                     <?php
                                     break;
                             }
@@ -140,7 +140,7 @@ background-color:#f9f9f9;z-index: 3;">
             <div class="row">
                 <div class="col-sm-3">
                     <div class="footer-widget about_widget" style="color: black">
-                        <a href="/" class="footer-logo"><img src="/rcm/assets/images/logo/logo-rcm.png" style="width: 120px" alt="Maxco Logo"></a>
+                        <a href="/" class="footer-logo"><img src="<?=base_url()?>assets/images/logo/logo-rcm.png" style="width: 120px" alt="Maxco Logo"></a>
                         <p style="/*color:black*/">Jl. Yos Sudarso Kav. 33<br>
                         Sunter Jaya RT. 008 RW. 011<br>
                        Tanjung Priok, Jakarta Utara 14350</p>
@@ -217,23 +217,23 @@ background-color:#f9f9f9;z-index: 3;">
   <!-- back to top area end -->
     
     <!-- popper -->
-    <script src="/rcm/assets/appside/assets/js/popper.min.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/popper.min.js"></script>
     <!-- bootstrap -->
-    <script src="/rcm/assets/appside/assets/js/bootstrap.min.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/bootstrap.min.js"></script>
     <!-- owl carousel -->
-    <script src="/rcm/assets/appside/assets/js/owl.carousel.min.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/owl.carousel.min.js"></script>
     <!-- magnific popup -->
-    <script src="/rcm/assets/appside/assets/js/jquery.magnific-popup.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/jquery.magnific-popup.js"></script>
     <!-- contact js-->
-    <script src="/rcm/assets/appside/assets/js/contact.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/contact.js"></script>
     <!-- wow js-->
-    <script src="/rcm/assets/appside/assets/js/wow.min.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/wow.min.js"></script>
     <!-- way points js-->
-    <script src="/rcm/assets/appside/assets/js/waypoints.min.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/waypoints.min.js"></script>
     <!-- counterup js-->
-    <script src="/rcm/assets/appside/assets/js/jquery.counterup.min.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/jquery.counterup.min.js"></script>
     <!-- main -->
-    <script src="/rcm/assets/appside/assets/js/main.js"></script>
+    <script src="<?=base_url()?>assets/appside/assets/js/main.js"></script>
     <!-- WhatsHelp.io widget -->
     <script type="text/javascript">
         (function () {
