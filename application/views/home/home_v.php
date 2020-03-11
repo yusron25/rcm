@@ -40,7 +40,7 @@
                          <img src="<?=base_url()?>assets/images/featured/service-maintenance.png" alt="">
                     </div>
                     <div class="content">
-                        <h4 class="title">Service maintenance and repair equipment  we provide</h4>
+                        <h4 class="title">Maintenance And Repair</h4>
                         <p>Kami memiliki teknisi yang andal dan kompeten untuk melakuka npemeliharaan dan perbaikan alat berat sesuai dengan Standar operation prosedur dari mulai preventive maintenance, corrective maintenance, penanganan troubleshooting sampai dengan over houl.</p>
                         <!-- <p><?=$this->lang->line('InternationalForwarderDesc') ?></p> -->
                     </div>
