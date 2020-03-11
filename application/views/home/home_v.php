@@ -55,7 +55,7 @@
                     <div class="content">
                         <h4 class="title">Distributor spare part</h4>
                         <!-- <p><?=$this->lang->line('EMKLDesc') ?></p> -->
-                        <p>Menyediakansukucadangalat-alatberatdengankualitasterjamin dan harga yang kompetitifdarimulaiconsumable part, engine, cylinder, turbo, generator dan sparepartlainnya.</p>
+                        <p>Menyediakan suku cadang alat-alat berat dengan kualitas terjamin dan harga yang kompetitif dari mulai consumable part, engine, cylinder, turbo, generator dan spare partlainnya.</p>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@
                     <div class="content">
                         <h4 class="title">Inland transportation</h4>
                         <!-- <p><?=$this->lang->line('PPJKDesc') ?></p> -->
-                        <p>Menyediakansaranatransportasiberupa truckingkontainerukuran 40feet dengan armada baruuntukkebutuhanpengirimanke seluruh wilayah.</p>
+                        <p>Menyediakan sarana transportasi berupa trucking kontainer ukuran 40 feet dengan armada baru untuk kebutuhan pengiriman ke seluruh wilayah.</p>
                     </div>
                 </div>
             </div>
@@ -87,7 +87,7 @@
                             <li>Crane</li>
                         </ul> -->
                         <!-- <p><?=$this->lang->line('InlandTransportationsDesc') ?></p> -->
-                        <p>Penyewaanalat-alatbongkarmuatkontainerseperti harbor mobile crane (HMC), reachstacker (RS), sideloader (SL) untukmenunjangkegiatan stevedoring, receiving delivery containerbaik di Pelabuhanmaupun Depo container denganmenempatkanalat-alat yang handalserta dioperasikan oleh operator yang berpengalaman dan bersertifikat.</p>
+                        <p>Penyewaan alat-alat bongkar muat kontainer seperti harbor mobile crane (HMC), reachstacker (RS), sideloader (SL) untuk menunjang kegiatan stevedoring, receiving delivery container baik di Pelabuha nmaupun Depo container dengan menempatkan alat-alat yang handal serta dioperasikan oleh operator yang berpengalaman dan bersertifikat.</p>
                     </div>
                 </div>
             </div>
