@@ -41,7 +41,7 @@
                     </div>
                     <div class="content">
                         <h4 class="title">Service maintenance and repair equipment  we provide</h4>
-                        <p>A reliable and competent technicians to perform maintenance and repair of heavy equipment in accordance with SOP.</p>
+                        <p>Kami memiliki teknisi yang andal dan kompeten untuk melakuka npemeliharaan dan perbaikan alat berat sesuai dengan Standar operation prosedur dari mulai preventive maintenance, corrective maintenance, penanganan troubleshooting sampai dengan over houl.</p>
                         <!-- <p><?=$this->lang->line('InternationalForwarderDesc') ?></p> -->
                     </div>
                 </div>
@@ -55,6 +55,7 @@
                     <div class="content">
                         <h4 class="title">Distributor spare part</h4>
                         <!-- <p><?=$this->lang->line('EMKLDesc') ?></p> -->
+                        <p>Menyediakansukucadangalat-alatberatdengankualitasterjamin dan harga yang kompetitifdarimulaiconsumable part, engine, cylinder, turbo, generator dan sparepartlainnya.</p>
                     </div>
                 </div>
             </div>
@@ -67,6 +68,7 @@
                     <div class="content">
                         <h4 class="title">Inland transportation</h4>
                         <!-- <p><?=$this->lang->line('PPJKDesc') ?></p> -->
+                        <p>Menyediakansaranatransportasiberupa truckingkontainerukuran 40feet dengan armada baruuntukkebutuhanpengirimanke seluruh wilayah.</p>
                     </div>
                 </div>
             </div>
@@ -79,12 +81,13 @@
                     </div>
                     <div class="content">
                         <h4 class="title">Rental Equipment</h4>
-                        <ul>
+                        <!-- <ul>
                             <li>Side Loader</li>
                             <li>Reach Stacker</li>
                             <li>Crane</li>
-                        </ul>
+                        </ul> -->
                         <!-- <p><?=$this->lang->line('InlandTransportationsDesc') ?></p> -->
+                        <p>Penyewaanalat-alatbongkarmuatkontainerseperti harbor mobile crane (HMC), reachstacker (RS), sideloader (SL) untukmenunjangkegiatan stevedoring, receiving delivery containerbaik di Pelabuhanmaupun Depo container denganmenempatkanalat-alat yang handalserta dioperasikan oleh operator yang berpengalaman dan bersertifikat.</p>
                     </div>
                 </div>
             </div>
