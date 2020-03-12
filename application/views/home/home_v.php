@@ -27,13 +27,13 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title">
-                    <h2 class="title">Bussines</h2>
+                    <h2 class="title">Business</h2>
                 </div>
             </div>
         </div>
         <div class="row justify-content-center">
             
-            <div class="col-sm-3 my-2" >
+            <div class="col-sm-3 my-2 px-5 " >
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-chat"></i> -->
@@ -41,12 +41,16 @@
                     </div>
                     <div class="content">
                         <h4 class="title">Maintenance And Repair</h4>
-                        <p>Kami memiliki teknisi yang andal dan kompeten untuk melakuka npemeliharaan dan perbaikan alat berat sesuai dengan Standar operation prosedur dari mulai preventive maintenance, corrective maintenance, penanganan troubleshooting sampai dengan over houl.</p>
+                        <p>Kami memiliki teknisi yang andal dan kompeten <span class="collapse" id="mrcollapse">untuk melakukan pemeliharaan dan perbaikan alat berat sesuai dengan Standar operation prosedur dari mulai preventive maintenance, corrective maintenance, penanganan troubleshooting sampai dengan over houl.</span> </p>                        
+
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#mrcollapse" aria-expanded="false" aria-controls="mrcollapse">
+                        Read More
+                        </button>
                         <!-- <p><?=$this->lang->line('InternationalForwarderDesc') ?></p> -->
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3  my-2">
+            <div class="col-sm-3  my-2 px-5">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-shield-1"></i> -->
@@ -55,11 +59,15 @@
                     <div class="content">
                         <h4 class="title">Distributor spare part</h4>
                         <!-- <p><?=$this->lang->line('EMKLDesc') ?></p> -->
-                        <p>Menyediakan suku cadang alat-alat berat dengan kualitas terjamin dan harga yang kompetitif dari mulai consumable part, engine, cylinder, turbo, generator dan spare partlainnya.</p>
+                        <p>Menyediakan suku cadang alat-alat berat <span class="collapse" id="spcollapse">dengan kualitas terjamin dan harga yang kompetitif dari mulai consumable part, engine, cylinder, turbo, generator dan spare partlainnya.</span></p>
+
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#spcollapse" aria-expanded="false" aria-controls="spcollapse">
+                        Read More
+                        </button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3  my-2">
+            <div class="col-sm-3  my-2 px-5">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-cloud"></i> -->
@@ -68,12 +76,16 @@
                     <div class="content">
                         <h4 class="title">Inland transportation</h4>
                         <!-- <p><?=$this->lang->line('PPJKDesc') ?></p> -->
-                        <p>Menyediakan sarana transportasi berupa trucking kontainer ukuran 40 feet dengan armada baru untuk kebutuhan pengiriman ke seluruh wilayah.</p>
+                        <p>Menyediakan sarana transportasi berupa trucking kontainer <span class="collapse" id="itcollapse">ukuran 40 feet dengan armada baru untuk kebutuhan pengiriman ke seluruh wilayah.</span></p>
+
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#itcollapse" aria-expanded="false" aria-controls="itcollapse">
+                        Read More
+                        </button>
                     </div>
                 </div>
             </div>
 
-            <div class="col-sm-3  my-2">
+            <div class="col-sm-3  my-2 px-5">
                 <div class="single-discover-item">
                     <div class="icon">
                         <!-- <i class="flaticon-layers-2"></i> -->
@@ -87,7 +99,11 @@
                             <li>Crane</li>
                         </ul> -->
                         <!-- <p><?=$this->lang->line('InlandTransportationsDesc') ?></p> -->
-                        <p>Penyewaan alat-alat bongkar muat kontainer seperti harbor mobile crane (HMC), reachstacker (RS), sideloader (SL) untuk menunjang kegiatan stevedoring, receiving delivery container baik di Pelabuha nmaupun Depo container dengan menempatkan alat-alat yang handal serta dioperasikan oleh operator yang berpengalaman dan bersertifikat.</p>
+                        <p>Penyewaan alat-alat bongkar muat kontainer <span class="collapse" id="recollapse">seperti harbor mobile crane (HMC), reachstacker (RS), sideloader (SL) untuk menunjang kegiatan stevedoring, receiving delivery container baik di Pelabuha nmaupun Depo container dengan menempatkan alat-alat yang handal serta dioperasikan oleh operator yang berpengalaman dan bersertifikat.</span></p>
+
+                        <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#recollapse" aria-expanded="false" aria-controls="recollapse">
+                        Read More
+                        </button>
                     </div>
                 </div>
             </div>
