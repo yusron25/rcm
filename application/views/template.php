@@ -152,7 +152,7 @@ background-color:#f9f9f9;z-index: 3;">
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" >Useful Links</h4>
                         <ul>
@@ -164,27 +164,38 @@ background-color:#f9f9f9;z-index: 3;">
                         </ul>
                     </div>
                 </div>
-                <div class="col-sm-3">
+                <div class="col-sm-2 ">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" >Our Customer</h4>
                         <ul>
                             <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/Temas.png" alt="temas logo"></a></li>
                             <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/ipc.png" alt="temas logo"></a></li>
                             <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/samudra-indonesia.png" alt="samudera indonesia logo"></a></li>
-                            <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/nph.png" alt="nusantara pelabuhan handal logo"></a></li>
+                            
                         </ul>
                     </div>
                 </div>
-                 <div class="col-sm-3">
+                <div class="col-sm-2">
                     <div class="footer-widget nav_menus_widget">
-                        <h4 class="widget-title" > </h4>
+                        <h4 class="widget-title" > </h4><br>
                         <ul>                            
+                            <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/nph.png" alt="nusantara pelabuhan handal logo"></a></li>
                             <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/Sinarmas.png" alt="sinarmas logo"></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-sm-2">
+                    <div class="footer-widget nav_menus_widget">
+                        <h4 class="widget-title" > </h4><br>
+                        <ul>                            
+                            
                             <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/pelindo1.png" alt="pelindo 1 logo"></a></li>
                             <li><a href="#" ><i class="fas fa-chevron-right"></i><img style="max-height: 40px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/pelindo3.png" alt="pelindo 3 logo"></a></li>
                         </ul>
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
