@@ -196,12 +196,13 @@
 
 <script>
 
-    $('.collapse').on('show.bs.collapse', function () {
-       $('.collapers').text('Less More..')
+    $('.collapse').on('shown.bs.collapse', function () {
+       $(this).next().text('Less More..')
+
     })
 
     $('.collapse').on('hidden.bs.collapse', function () {
-        $('.collapers').text('Read More..')
+        $(this).next().text('Read More..')
     })
 
 </script>
