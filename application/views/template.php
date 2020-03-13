@@ -185,7 +185,7 @@ background-color:#f9f9f9;z-index: 3;">
                         <ul>     
                             
                             <li> <a href="#" > <img style="max-height: 90px; max-width: 150px" src="<?=base_url()?>assets/images/ourcustomer/pelindo1.png" alt="pelindo 1 logo"></a></li>
-                             <li> <a href="#" > <img style="max-height: 50px; max-width: 100px" src="<?=base_url()?>assets/images/ourcustomer/ipc.png" alt="temas logo"></a></li>
+                             <li> <a href="#" > <img style="max-height: 80px; max-width: 150px" src="<?=base_url()?>assets/images/ourcustomer/ipc.png" alt="temas logo"></a></li>
                             <li> <a href="#" > <img style="max-height: 80px; max-width: 150px" src="<?=base_url()?>assets/images/ourcustomer/pelindo3.png" alt="pelindo 3 logo"></a></li>
 
                           
