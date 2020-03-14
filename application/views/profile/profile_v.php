@@ -12,7 +12,7 @@
             </div>
             <div class="row">
                 <div class="col-sm-5">
-                    <img src="<?=base_url()?>assets/images/logo/logo-rcm.png" style="max-height: 256px" alt="Maxco">
+                    <img src="<?=base_url()?>assets/images/logo/logo-rcm-head.png" style="max-height: 256px;width: 160px" alt="Maxco">
                 </div> 
                 <div class="col-sm-7">
                     <div class="card">
@@ -52,7 +52,12 @@
                                     :
                                 </div>
                                 <div class="col-7">
-                                    EMKL-INTERNATIONAL FORWARDER-PPJK-TRUCKING
+                                    <ul style="list-style: disc">
+                                        <li>Maintenance and Repair</li>
+                                        <li>Distributor Spare part</li>
+                                        <li>Inland Transportation</li>
+                                        <li>Rental Equipment</li>
+                                    </ul>
                                 </div>
                             </div>
 
