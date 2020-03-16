@@ -6,7 +6,7 @@
   <div class="carousel-inner">
     <?php $c = 0; foreach ($slider as $slide ): ?>
         <div class="carousel-item <?=($c==0)?'active':''?>">
-          <img src="<?=base_url()?><?=$slide?>" class="d-block w-100" alt="Slider PT Maxco Tunggal Perkasa">
+          <img src="<?=base_url()?><?=$slide?>" class="d-block w-100" alt="PT Rajawali Cahaya Mandiri">
         </div>
     <?php $c++; endforeach ?>
   </div>
