@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $lang['profile_company'] = 'Company Name';
 $lang['profile_address'] = 'Address';
 $lang['profile_bussiness'] = 'Main Bussiness';
-$lang['profile_director'] = 'Director';
+$lang['profile_director'] = 'President Director';
 $lang['profile_employee'] = 'Number Employee';
 
 $lang['profile_visinmisi'] = 'Vision & Mission';
