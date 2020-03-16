@@ -71,7 +71,7 @@
     
 <!-- navbar area start -->
 <nav class="navbar navbar-area navbar-expand-lg nav-absolute black nav-style-01 header-style-09 " style="position: fixed;
-background-color:#f9f9f9d6;z-index: 3;">
+background-color:#f9f9f9f2;z-index: 3;">
     <div class="container nav-container">
         <div class="responsive-mobile-menu">
             <div class="logo-wrapper">
