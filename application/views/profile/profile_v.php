@@ -69,7 +69,7 @@
                                     :
                                 </div>                                
                                 <div class="col-7">
-                                    RODERICK GONDOMULIA
+                                    Hadijaya Khusumo
                                 </div>
                             </div>
 
@@ -81,7 +81,7 @@
                                     :
                                 </div>
                                 <div class="col-7">
-                                    -
+                                    95
                                 </div>
                             </div>
                         </div>
