@@ -87,7 +87,7 @@
                             :
                         </div>
                         <div class="col-7">
-                             021 292 88 123<br>021 292 88 006
+                             +62 21-6509087<br>+62 21-6509086
                         </div>
                     </div>
                     <div class="row">
@@ -98,7 +98,7 @@
                             :
                         </div>
                         <div class="col-7">
-                            cs@maxco.id
+                            roy.andriyanto@rcm.co.id
                         </div>
                     </div>
                     <div class="row">
@@ -109,10 +109,9 @@
                             :
                         </div>
                         <div class="col-7">
-                            Jl. Marunda Makmur<br>
-                            Kawasan Industri dan Pergudangan Marunda Center<br>
-                            Blok A5 No. 7-8<br>
-                            Segara Makmur, Kec. Tarumajaya, Bekasi 17211 
+                                    Jl. Yos Sudarso Kav. 33<br>
+                                    Sunter Jaya RT. 008 RW. 011<br>
+                                    Tanjung Priok, Jakarta Utara 14350
                         </div>
                     </div>
                     
@@ -126,7 +125,7 @@
 	$("#repeatimgcap").click(function(){
 
 		$.ajax({
-			url: window.origin+"/Contact/changecap",
+			url: "<?=base_url()?>/Contact/changecap",
 			type:'post',
 			success:function(res){
 				console.log(res);

@@ -178,7 +178,7 @@
                     &nbsp;
                     &nbsp;
                     <p><?=$this->lang->line('ContactDesc')?></p>
-                    <a href="/contact-us" class="btn btn-lg btn-primary"><i class="fa fa-envelope"></i> Get In Touch</a>
+                    <a href="<?=base_url()?>/contact-us" class="btn btn-lg btn-primary"><i class="fa fa-envelope"></i> Get In Touch</a>
                 </div><!-- //. contact area wrapper -->
             </div>
             <div class="col-lg-6">

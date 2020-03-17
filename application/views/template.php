@@ -91,7 +91,7 @@ background-color:#f9f9f9f2;z-index: 3;">
                 </li>                
                 <li><a href="<?=base_url()?>#services"><?=$this->lang->line('service') ?></a></li>
                 <li><a href="<?=base_url()?>#profile"><?=$this->lang->line('profile') ?></a></li>
-                <li><a href="#"><?=$this->lang->line('gallery') ?></a></li>
+                <li><a href="<?=base_url('gallery')?>"><?=$this->lang->line('gallery') ?></a></li>
                 <li><a href="<?=base_url()?>#contact"><?=$this->lang->line('contact') ?></a></li>
                 <li class="menu-item-has-children">
                     <a href="#">

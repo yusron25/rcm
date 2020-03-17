@@ -153,48 +153,48 @@
             <div class="col-lg-4  my-2">
                 <div class="card">
                     <div class="card-body " style="text-align: center; min-height: 240px">
-                        <h4 class="title">Teamwork</h4>
-                        <p>Prioritizing teamwork in executing and completing the work to achieve a mutually agreed outcome effectively and efficiently. </p>
+                        <h4 class="title"><?=$this->lang->line('value_teamwork_title')?></h4>
+                        <p><?=$this->lang->line('value_teamwork_desc')?> </p>
                     </div>
                 </div>
             </div>
              <div class="col-lg-4 my-2">
                 <div class="card">
                     <div class="card-body " style="text-align: center; min-height: 240px">
-                        <h4 class="title">Integrity</h4>
-                        <p>Trustworthy, honest, and impartial.</p>
+                        <h4 class="title"><?=$this->lang->line('value_integrity_title')?></h4>
+                        <p><?=$this->lang->line('value_integrity_desc')?></p>
                     </div>
                 </div>
             </div>
              <div class="col-lg-4 my-2">
                 <div class="card">
                     <div class="card-body " style="text-align: center; min-height: 240px">
-                        <h4 class="title">Customer Priority</h4>
-                        <p>To give satisfaction to customer with implementation and complete work.</p>
+                        <h4 class="title"><?=$this->lang->line('value_customer_title')?></h4>
+                        <p><?=$this->lang->line('value_customer_desc')?></p>
                     </div>
                 </div>
             </div>
              <div class="col-lg-4 my-2">
                 <div class="card">
                     <div class="card-body " style="text-align: center; min-height: 240px">
-                        <h4 class="title">Care</h4>
-                        <p>Giving priority to the common interest of others and the environment.</p>
+                        <h4 class="title"><?=$this->lang->line('value_care_title')?></h4>
+                        <p><?=$this->lang->line('value_care_desc')?></p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 my-2">
                 <div class="card">
                     <div class="card-body " style="text-align: center; min-height: 240px">
-                        <h4 class="title">Innovation</h4>
-                        <p>Continuous improvement by providing added value to all parties so as to provide benefits for the common good.</p>
+                        <h4 class="title"><?=$this->lang->line('value_innovation_title')?></h4>
+                        <p><?=$this->lang->line('value_innovation_desc')?></p>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 my-2">
                 <div class="card">
                     <div class="card-body " style="text-align: center; min-height: 240px">
-                        <h4 class="title">Responsibility</h4>
-                        <p>Aware in completing the work as a liability.</p>
+                        <h4 class="title"><?=$this->lang->line('value_responsibility_title')?></h4>
+                        <p><?=$this->lang->line('value_responsibility_desc')?></p>
                     </div>
                 </div>
             </div>
