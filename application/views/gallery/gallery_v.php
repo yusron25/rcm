@@ -36,7 +36,7 @@
 </section>
 
 <div class="modal fade" id="imageslider" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
         <div class="modal-content">
 
             <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
