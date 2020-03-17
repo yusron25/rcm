@@ -10,3 +10,5 @@ $lang['PPJKDesc'] = 'Rental Equipment
 -	Reach Stacker
 -	Crane
 ';
+
+$lang['business_title'] = 'Bisnis';

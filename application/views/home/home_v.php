@@ -27,7 +27,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-8">
                 <div class="section-title">
-                    <h2 class="title">Business</h2>
+                    <h2 class="title"><?=$this->lang->line('business_title') ?></h2>
                 </div>
             </div>
         </div>

@@ -1,6 +1,6 @@
 
 
-<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="background-image: url('/assets/images/office.jpg');background-size:cover;">
+<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="background-image: url('<?=base_url()?>/assets/images/profile/bg_profile.jpg');background-size:cover;">
    
         <div class="container">
             <div class="row justify-content-center">
@@ -15,7 +15,7 @@
                     <img src="<?=base_url()?>assets/images/logo/in-profile.png" style="width: 300px" alt="Rajawali Cahaya Mandiri">
                 </div> 
                 <div class="col-sm-7">
-                    <div class="card">
+                    <div class="card"  style="background-color: #fff0">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col-4">
@@ -92,6 +92,19 @@
         </div>  
     
     
+</section>
+
+<hr>
+
+<section >
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-12" style="text-align: center;">
+                <h3 style="text-decoration: underline;"><?=$this->lang->line('about_us_title')?></h3>
+                <p><?=$this->lang->line('about_us_desc')?></p>
+            </div>
+        </div>
+    </div>
 </section>
 
 
