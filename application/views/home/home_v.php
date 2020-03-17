@@ -1,6 +1,6 @@
 
 
-<div id="home" class="carousel slide padtopslider" data-ride="carousel" data-interval="5000"> 
+<div id="home" class="carousel slide padtopslider" data-ride="carousel" data-interval="5000" style="margin-top: 100px;"> 
 
 
   <div class="carousel-inner">

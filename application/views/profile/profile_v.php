@@ -1,6 +1,6 @@
 
 
-<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="background-image: url('<?=base_url()?>/assets/images/profile/bg_profile.jpg');background-size:cover;">
+<section class="discover-area padding-top-110 padding-bottom-80" id="profile" style="background-image: url('<?=base_url()?>/assets/images/profile/bg_profile.jpg');background-size:cover;margin-top: 100px;">
    
         <div class="container">
             <div class="row justify-content-center">
@@ -36,7 +36,7 @@
                                 <div class="col-1">
                                     :
                                 </div>
-                                <div class="col-7">
+                                <div class="col-6">
                                     Jl. Yos Sudarso Kav. 33<br>
                                     Sunter Jaya RT. 008 RW. 011<br>
                                     Tanjung Priok, Jakarta Utara 14350
@@ -51,7 +51,7 @@
                                 <div class="col-1">
                                     :
                                 </div>
-                                <div class="col-7">
+                                <div class="col-6">
                                     <ul style="list-style: disc">
                                         <li>Maintenance and Repair</li>
                                         <li>Distributor Spare part</li>
@@ -68,7 +68,7 @@
                                 <div class="col-1">
                                     :
                                 </div>                                
-                                <div class="col-7">
+                                <div class="col-6">
                                     Hadijaya Khusumo
                                 </div>
                             </div>
@@ -80,7 +80,7 @@
                                 <div class="col-1">
                                     :
                                 </div>
-                                <div class="col-7">
+                                <div class="col-6">
                                     95
                                 </div>
                             </div>
