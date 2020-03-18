@@ -41,7 +41,7 @@
                 <div class="modal-content">
 
                     <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 1;padding: 12px;"> 
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 4;padding: 12px;"> 
                           <span aria-hidden="true">&times;</span>
                         </button>
                       <div class="carousel-inner">
@@ -98,7 +98,7 @@
                 <div class="modal-content">
 
                     <div id="carouselExampleControls2" class="carousel slide" data-interval="false" data-ride="carousel">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 1;padding: 12px;"> 
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 4;padding: 12px;"> 
                           <span aria-hidden="true">&times;</span>
                         </button>
                       <div class="carousel-inner">
@@ -157,7 +157,7 @@
                 <div class="modal-content">
 
                     <div id="carouselExampleControls3" class="carousel slide" data-interval="false" data-ride="carousel">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 1;padding: 12px;"> 
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 4;padding: 12px;"> 
                           <span aria-hidden="true">&times;</span>
                         </button>
                       <div class="carousel-inner">
