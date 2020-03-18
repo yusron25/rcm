@@ -70,7 +70,6 @@
                     </div>
                     <div class="content">
                         <h4 class="title">Inland Transportation</h4>
-
                         
                         <?=$this->lang->line('business_transportation')?>
 
@@ -88,8 +87,6 @@
                         <h4 class="title">Rental Equipment</h4>
 
                         <?=$this->lang->line('business_rental')?>
-
-
 
                     </div>
                 </div>
