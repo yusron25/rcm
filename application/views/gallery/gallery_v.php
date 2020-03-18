@@ -11,6 +11,9 @@
                     </div>
                 </div>
             </div>
+            <div>
+                <h5>Maintenance And Repair</h5>
+            </div>
             <div class="row">
                 
                 <?php foreach ( $gallery['mekanik'] as $key => $gal ): ?>
@@ -62,13 +65,11 @@
             </div>
         </div>
 
-        <div class="container" >
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="section-title">
-                        <h3 class="title extra"><?=$this->lang->line('gallery') ?></h3>
-                    </div>
-                </div>
+<!-- ########################## MORE GALLERY #################################################### -->
+
+        <div class="container mt-5" >
+            <div>
+                <h5>Spare Part</h5>
             </div>
             <div class="row">
                 
@@ -96,7 +97,7 @@
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
 
-                    <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
+                    <div id="carouselExampleControls2" class="carousel slide" data-interval="false" data-ride="carousel">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 1;padding: 12px;"> 
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -108,11 +109,11 @@
                             </div>
                         <?php endforeach ?>
                       </div>
-                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>
@@ -121,15 +122,13 @@
             </div>
         </div>
 
+<!-- ########################## MORE GALLERY #################################################### -->
 
 
-        <div class="container" >
-            <div class="row justify-content-center">
-                <div class="col-lg-10">
-                    <div class="section-title">
-                        <h3 class="title extra"><?=$this->lang->line('gallery') ?></h3>
-                    </div>
-                </div>
+
+        <div class="container mt-5" >
+            <div>
+                <h5>Rental Equipment</h5>
             </div>
             <div class="row">
                 
@@ -157,7 +156,7 @@
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
 
-                    <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
+                    <div id="carouselExampleControls3" class="carousel slide" data-interval="false" data-ride="carousel">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="position: absolute;right: 0;z-index: 1;padding: 12px;"> 
                           <span aria-hidden="true">&times;</span>
                         </button>
@@ -169,11 +168,11 @@
                             </div>
                         <?php endforeach ?>
                       </div>
-                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                      <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                       </a>
-                      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                      <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                       </a>

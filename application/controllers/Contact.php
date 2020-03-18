@@ -91,27 +91,27 @@ class Contact extends CI_Controller {
 
 
 	private function sendbymail( $data ){
-		$config['mailtype'] 	= 'html';
+		// $config['mailtype'] 	= 'html';
 		$config['protocol'] = 'smtp';
-		$config['smtp_host'] = 'maxco.id';
-		$config['smtp_port'] = '587';		
-		$config['smtp_user'] = 'cs@maxco.id';		
-		$config['smtp_pass'] = 'csmaxco.2020';		
+		// $config['smtp_host'] = 'rcm.id';
+		$config['smtp_port'] = '25';		
+		// $config['smtp_user'] = 'cs@rcm.id';		
+		// $config['smtp_pass'] = '';		
         $config['crlf']			= "\r\n";
         $config['charset'] 		= 'UTF-8';
 		$config['wordwrap'] 	= TRUE;
 
 		$this->email->initialize($config);
 
-		$this->email->from('cs@maxco.id', 'Maxco Tunggal Perkasa');
-		$this->email->to('cs@maxco.id' );
+		$this->email->from('visitor@rcm.id', 'Rajawali Cahaya Mandiri');
+		$this->email->to('cs@rcm.id' );
 
 		$this->email->subject('Visitor');
 		$this->email->message('<!DOCTYPE html>
 								<html lang="en">
 								<head>
 									<meta charset="UTF-8">
-									<title>Maxco</title>
+									<title>RCM</title>
 								</head>
 								<body>
 									<div>

@@ -207,12 +207,12 @@
                 </div><!-- //. contact area wrapper -->
             </div>
             <div class="col-lg-6">
-                <!--<div class="img-wrapper">-->
-                <!--    <img src="assets/images/contact/contact-us.jpg" alt="">-->
-                <!--    <a target="_blank" href="http://www.freepik.com">-->
-                <!--        <small style="color:#C1C1C1">Designed by pikisuperstar / Freepik</small>-->
-                <!--    </a>                    -->
-                <!--</div>-->
+                <div class="img-wrapper">
+                    <img style="max-height: 450px" src="<?=base_url()?>assets/images/contact/contact-us.png" alt="">
+                    <a target="_blank" href="http://www.freepik.com">
+                        <!-- <small style="color:#C1C1C1">Designed by pikisuperstar / Freepik</small> -->
+                    </a>   
+                </div>
             </div>
         </div>
     </div>
