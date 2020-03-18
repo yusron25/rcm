@@ -42,7 +42,9 @@ class Gallery extends CI_Controller {
 
 	private function gallery(){
 
-		$path = glob("assets/images/gallery/*.*");
+		$path['mekanik'] = glob("assets/images/gallery/mekanik/*.*");
+		$path['rental'] = glob("assets/images/gallery/rental/*.*");
+		$path['sparepart'] = glob("assets/images/gallery/sparepart/*.*");
 		// echo json_encode($path);
 		return $path;
 	}
