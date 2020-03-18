@@ -1,6 +1,9 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
+
+$lang['profile_title'] = 'Profile';
+
 $lang['profile_company'] = 'Company Name';
 $lang['profile_address'] = 'Address';
 $lang['profile_bussiness'] = 'Main Bussiness';

@@ -1,6 +1,6 @@
 
 
-<section class="discover-area padding-top-10 padding-bottom-80" id="profile" style="background-image: url('<?=base_url()?>/assets/images/profile/bg_profile.jpg');background-size:cover;margin-top: 100px;">
+<section class="discover-area padding-top-10 padding-bottom-80" id="profile" style="background-image: url('<?=base_url()?>/assets/images/profile/bg_profile.jpg');background-size:cover;margin-top: 100px;padding-bottom: 150px;">
    
         <div class="container">
             <div class="row justify-content-center">

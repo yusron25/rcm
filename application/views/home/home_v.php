@@ -97,31 +97,53 @@
         </div>
     </div>
 </section>
+
+<section class="discover-area padding-top-110" id="profile" >
+    <div class="pt-3" style="background-image: url('<?=base_url()?>/assets/images/featured/profile.jpg');padding-bottom:40px">
+        <div class="container my-5 ">
+            <div class="row justify-content-center">
+                <div class="col-12" style="text-align: center;">
+
+                    <h3 style="text-decoration: underline;"><?=$this->lang->line('about_us_title')?></h3>                
+                    <p><?=$this->lang->line('about_us_desc')?></p>
+
+                </div>
+            </div>
+            <div class="row" style="display: none">
+                <div class="col-md-6 m-auto" >                    
+                    
+                    <h5 style="text-align:center;"><?=$this->lang->line('about_us_title')?></h5>
+                    <p><?=substr($this->lang->line('about_us_desc'), 0,96 ) ?> ...</p>
+                </div>
+                <div class="col-md-6" >  
+                    <img src="<?=base_url()?>/assets/images/featured/profile.jpg" alt="Image Profile"> 
+                </div>
+            </div>
+        </div>
+        <div style="text-align: center">
+            <a href="<?=base_url()?>profile" class="btn btn-primary"><i>Read More... </i></a>
+        </div>
+    </div>
+    
+</section>
+
 <!-- discover area start  -->
 
-<section class="discover-area padding-top-110 padding-bottom-80" id="profile">
+<section style="display: none" class="discover-area padding-top-110 padding-bottom-80" id="profile">
     <div class="container my-5">
         <div class="row justify-content-center">
             <div class="col-12" style="text-align: center;">
-                <h3 style="text-decoration: underline;"><?=$this->lang->line('profile_visinmisi')?></h3>
+                <h3 style="text-decoration: underline;"><?=$this->lang->line('profile_title')?></h3>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-6" >                    
-                <div class="card" style="min-height: 300px">
-                    <div class="card-body">
-                        <h5 style="text-align:center;"><?=$this->lang->line('profile_visititle')?></h5>
-                        <p><?=$this->lang->line('profile_visidesc')?></p>
-                    </div>
-                </div>
+            <div class="col-md-6 m-auto" >                    
+                
+                <h5 style="text-align:center;"><?=$this->lang->line('about_us_title')?></h5>
+                <p><?=substr($this->lang->line('about_us_desc'), 0,96 ) ?> ...</p>
             </div>
             <div class="col-md-6" >  
-                <div class="card" style="min-height: 300px">
-                    <div class="card-body">
-                        <h5 style="text-align:center;"><?=$this->lang->line('profile_misititle')?></h5>
-                         <p><?=$this->lang->line('profile_misidesc')?></p>
-                    </div>
-                </div>   
+                <img src="<?=base_url()?>/assets/images/featured/profile.jpg" alt="Image Profile"> 
             </div>
         </div>
     </div>
