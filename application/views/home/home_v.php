@@ -99,7 +99,13 @@
 </section>
 
 <section class="discover-area padding-top-110" id="profile" >
-    <div class="pt-3" style="background-image: url('<?=base_url()?>/assets/images/featured/profile.jpg');padding-bottom:40px">
+    <div class="pt-3" style="background-image: url('<?=base_url()?>/assets/images/featured/profile.jpg');padding-bottom:40px;  
+    /*parallax*/
+  min-height: 400px; 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;">
         <div class="container my-5 ">
             <div class="row justify-content-center">
                 <div class="col-12" style="text-align: center;">
