@@ -37,7 +37,7 @@
         </div>  
 
         <div class="modal fade" id="imagesliderMechanic" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
 
                     <div id="carouselExampleControls" class="carousel slide" data-interval="false" data-ride="carousel">
@@ -94,7 +94,7 @@
         </div>  
 
         <div class="modal fade" id="imagesliderSparepart" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
 
                     <div id="carouselExampleControls2" class="carousel slide" data-interval="false" data-ride="carousel">
@@ -153,7 +153,7 @@
         </div>  
 
         <div class="modal fade" id="imagesliderRental" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-xl modal-dialog-centered">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
                 <div class="modal-content">
 
                     <div id="carouselExampleControls3" class="carousel slide" data-interval="false" data-ride="carousel">
