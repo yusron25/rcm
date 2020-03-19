@@ -1,6 +1,6 @@
 
 
-<section class="discover-area padding-top-110 padding-bottom-80"  >
+<section class="discover-area padding-top-110 padding-bottom-80"  style="margin-top: 60px">
 
    
         <div class="container" >
