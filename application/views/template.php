@@ -159,11 +159,11 @@ background-color:#f9f9f9f2;z-index: 3;">
                     <div class="footer-widget nav_menus_widget">
                         <h4 class="widget-title" >Useful Links</h4>
                         <ul>
-                            <li><a href="/" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
-                            <li><a href="/#services" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
-                            <li><a href="/#profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
-                            <li><a href="/gallery" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('gallery') ?></a></li>
-                            <li><a href="/#contact" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
+                            <li><a href="<?=base_url()?>" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('home') ?> </a></li>
+                            <li><a href="<?=base_url()?>#services" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('service') ?></a></li>
+                            <li><a href="<?=base_url()?>#profile" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('profile') ?> </a></li>
+                            <li><a href="<?=base_url('gallery')?>" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('gallery') ?></a></li>
+                            <li><a href="<?=base_url()?>#contact" ><i class="fas fa-chevron-right"></i> <?=$this->lang->line('contact') ?> </a></li>
                         </ul>
                     </div>
                 </div>
