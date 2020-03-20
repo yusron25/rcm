@@ -50,7 +50,7 @@ class Contact extends CI_Controller {
 
 	private function getcap(){
 
-		$builder = $this->captchagregwar->new();
+		$builder = $this->captchagregwar->newx();
 		$builder->build();
 
 		$this->session->set_userdata('cap', $builder->getPhrase());

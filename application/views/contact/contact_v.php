@@ -98,7 +98,7 @@
                             :
                         </div>
                         <div class="col-7">
-                            roy.andriyanto@rcm.co.id
+                            marketing@rcm.co.id
                         </div>
                     </div>
                     <div class="row">

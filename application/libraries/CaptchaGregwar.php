@@ -12,7 +12,7 @@ use Gregwar\Captcha\CaptchaBuilder;
 class CaptchaGregwar {
 
 
-	public function new(){
+	public function newx(){
 
 		return new CaptchaBuilder;
 	}
